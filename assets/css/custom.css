@@ -1,0 +1,11 @@
+    /* Optional: Add larger spacing between icon and text */
+  .sidebar-nav .nav-item .nav-link i {
+    margin-right: 10px; /* Adjust spacing */
+  }
+  
+  /* Increase icon size specifically for the dropdown */
+.large-icon {
+    font-size: 1.5rem; /* Adjust size as needed (e.g., 1.5rem = 24px) */
+    margin-right: 10px; /* Optional: Add space between icon and text */
+  }
+  

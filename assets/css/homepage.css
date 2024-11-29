@@ -1,0 +1,108 @@
+/* Hero Section */
+.pagetitle h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+.pagetitle p {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 250px;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-info, .btn-warning {
+    border-radius: 50px;
+    font-weight: 600;
+    padding: 10px 25px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: none;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+/* Section Styling */
+.section {
+    padding: 60px 0;
+}
+
+.about-us .card-body, .special-offers .card-body {
+    padding: 30px;
+}
+
+.special-offers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #007bff;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.card-text {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.information .card {
+    margin-bottom: 30px;
+}
+
+.information .card-img-top {
+    height: 200px;  /* Adjust the image size to fit uniformly */
+    object-fit: cover;  /* Ensures images fill the container without stretching */
+}
+
+.information .card-body {
+    text-align: center; /* Centers the text in the card body */
+}
+
+.information .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.information .card-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .resort-introduction .col-lg-6 {
+        margin-bottom: 2rem;
+    }
+}
